@@ -1,11 +1,4 @@
-Thanks for downloading this template!
+https://raihanajah.github.io/myPortofolio/index.html#about
 
-Template Name: MyResume
 Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
-
-
-Selesai
-Home
-contact sisa email
