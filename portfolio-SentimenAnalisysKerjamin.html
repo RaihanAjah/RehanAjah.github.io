@@ -46,6 +46,9 @@
       <ul>
         <li><a href="..\myPortofolio\index.html"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
         <li><a href="..\myPortofolio\index.html#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="..\myPortofolio\index.html#work"><i class="bi bi-file-earmark-text navicon"></i><span>Work</span></a></li>
+        <li><a href="..\myPortofolio\index.html#certification"><i class="bi bi-award navicon"></i><span>Certification</span></a></li>
+        <li><a href="..\myPortofolio\index.html#skills"><i class="bi bi-tools navicon"></i><span>Skills</span></a></li>
         <li><a href="..\myPortofolio\index.html#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
         <li><a href="..\myPortofolio\index.html#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
         <li><a href="..\myPortofolio\index.html#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
@@ -97,15 +100,11 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/Renewable Energy and Emission/Renewable Energy and Emission 1.png" alt="">
+              <img src="assets/img/portfolio/Object Detection/ss ds od 1.png" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/Renewable Energy and Emission/Renewable Energy and Emission 2.png" alt="">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/Renewable Energy and Emission/Renewable Energy and Emission 3.png" alt="">
+              <img src="assets/img/portfolio/Object Detection/ss ds od 2.png" alt="">
             </div>
 
           </div>
@@ -118,24 +117,45 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>Renewable Energy and Emission Reduction: A Case Study for Economic and Environmental Sustainability</h2>
+              <h2>Development of Object Detection System for Retail Products Using YOLOv4-Tiny Architecture</h2>
               <p>
-                The objective of this case study is to analyze a dataset of renewable energy projects that includes variables such as the type of renewable energy, installed capacity, energy production and consumption, storage capacity, grid integration level, initial investment, funding sources, financial incentives, greenhouse gas (GHG) emission reductions, air pollution reduction index, and jobs created. The aim is to understand the relationships between these variables and identify significant patterns or insights that can inform decision-making in real-world renewable energy projects. This analysis assumes that the data accurately represents the performance and impact of various renewable energy projects.
+                In the modern retail industry, efficient inventory management and accurate product identification are crucial for optimizing operations and enhancing customer experience. Traditional methods of manual counting and categorization are not only time-consuming but also prone to errors, leading to potential financial losses and customer dissatisfaction. To address these challenges, the integration of advanced computer vision technologies has become increasingly important.
               </p>
-              
+              <p>
+                This project focuses on the development of an object detection system for retail products using the YOLOv4-Tiny architecture. YOLO (You Only Look Once) is a state-of-the-art, real-time object detection algorithm known for its speed and accuracy. The Tiny variant of YOLOv4 offers a more lightweight and efficient model, making it ideal for deployment in resource-constrained environments, such as embedded systems or edge devices commonly found in retail settings.
+              </p>
+              <p>
+                The primary objective of this project is to design and implement a system capable of detecting and identifying various retail products on shelves or in storage with high accuracy and low latency. By leveraging the YOLOv4-Tiny architecture, the system aims to provide real-time analytics that can assist in inventory tracking, shelf management, and loss prevention. The project will involve dataset preparation, model training, and fine-tuning, as well as the integration of the detection system with retail software platforms.
+              </p>
+              <p>
+                This introduction outlines the scope and significance of the project, highlighting the need for innovative solutions in the retail sector and the potential impact of implementing an efficient object detection system. Through this endeavor, we aim to demonstrate the practical applications of deep learning in retail and explore the benefits of adopting advanced technologies for everyday business operations.
+              </p>
+              <h2>Process</h2>
+              <ul style="text-align: justify;">
+                <li>
+                  <strong>Data Collection</strong>: A dataset of images of retail products was collected from various sources, including online marketplaces and in-store captures. The dataset consisted of 106 classes of powdered milk products in both box and can formats.
+                </li>
+                <li>
+                  <strong>Data Preprocessing</strong>: The collected images were preprocessed to ensure consistency in size, format, and quality. This involved resizing images to a uniform size, converting them to a suitable format, and enhancing image quality where necessary.
+                </li>
+                <li>
+                  <strong>Data Annotation</strong>: The dataset was annotated with bounding boxes to identify and label the objects of interest, facilitating the model's learning process.
+                </li>
+                <li>
+                  <strong>Model Selection and Training</strong>: The YOLOv4-Tiny architecture was chosen for its proven ability to provide satisfactory object detection results. The model was trained on the preprocessed dataset for 46 hours out of a total of 111 hours.
+                </li>
+                <li>
+                  <strong>Model Evaluation</strong>: The trained model was evaluated on a test dataset to assess its performance. The evaluation metrics used included mean Average Precision (mAP), Precision, Recall, and F1-score.
+                </li>
+                <li>
+                  <strong>Deployment</strong>: The trained model was deployed on an Android device to test its real-time object detection capabilities. The model demonstrated an average inference time ranging from 600 to 700 ms, with some instances requiring up to 900 ms.
+                </li>
+              </ul>
 
               <h2>Result</h2>
               <p>
-                Based on the data visualization results, the understanding gained is that the correlation matrix shows that most variables have very weak correlations (|r| <= 0.10) with each other. This indicates that no factors can be identified as having a significant influence on the efficiency of renewable energy projects based on the correlations in this dataset.
+                Based on the results of the research conducted, several conclusions can be drawn. This study successfully implemented the YOLOv4-tiny architecture model for object detection on retail products, specifically focusing on 106 classes of powdered milk products in both box and can formats. The YOLOv4-tiny architecture was chosen for its proven ability to provide satisfactory object detection results. The model was trained for 46 hours out of a total of 111 hours. The model demonstrated high performance, with a mAP value reaching 92.12%, a Precision score of 0.78, a Recall score of 0.82, and an F1-score of 0.80. Additionally, testing on an Android device showed an average inference time ranging from 600 to 700 ms, with some instances requiring up to 900 ms. This inference time is sufficient for real-time object detection as it is under 1 second.
               </p>
-              <p>
-                A notable example is the relationship between initial investment and job creation in renewable energy projects, which also shows a very weak correlation. This suggests that initial investment cannot be relied upon as a significant predictor for job creation.
-              </p>
-              <p>
-                However, the visualization also reveals that Biomass has the highest average reduction in greenhouse gas emissions, followed by Tidal and Hydroelectric. This indicates that although the correlations between variables are generally weak, there are some important findings related to the environmental impact of different types of renewable energy.
-              </p>
-
-
             </div>
           </div>
 
@@ -143,11 +163,10 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>Data Analisys</li>
-                <li><strong>Tools</strong> Web design</li>
-                <li><strong>Project date</strong> 7 July 2024</li>
-                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+                <li><strong>Category</strong>Data Science</li>
+                <li><strong>Tools</strong>Python, Jupyter Notebook, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras, YOLOv4 Tiny</li>
+                <li><strong>Project date</strong> 19 June 2023</li>
+                <li><strong>Project URL</strong> <a href="https://github.com/RaihanAjah/Development-of-an-Object-Detection-System-in-Retail-Products-with-Yolov4-Tiny-Architecture">https://github.com/RaihanAjah/Development-of-an-Object-Detection-System-in-Retail-Products-with-Yolov4-Tiny-Architecture</a></li>
               </ul>
             </div>
           </div>
