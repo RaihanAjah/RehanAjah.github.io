@@ -100,13 +100,8 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/Object Detection/ss ds od 1.png" alt="">
+              <img src="assets/img/portfolio/Sentiment Analisys Kerjamin/test.png" alt="">
             </div>
-
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/Object Detection/ss ds od 2.png" alt="">
-            </div>
-
           </div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
@@ -117,44 +112,32 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>Development of Object Detection System for Retail Products Using YOLOv4-Tiny Architecture</h2>
+              <h2>Analyzing Customer Feedback: Sentiment Analysis in Handyman Services Applications</h2>
               <p>
-                In the modern retail industry, efficient inventory management and accurate product identification are crucial for optimizing operations and enhancing customer experience. Traditional methods of manual counting and categorization are not only time-consuming but also prone to errors, leading to potential financial losses and customer dissatisfaction. To address these challenges, the integration of advanced computer vision technologies has become increasingly important.
-              </p>
-              <p>
-                This project focuses on the development of an object detection system for retail products using the YOLOv4-Tiny architecture. YOLO (You Only Look Once) is a state-of-the-art, real-time object detection algorithm known for its speed and accuracy. The Tiny variant of YOLOv4 offers a more lightweight and efficient model, making it ideal for deployment in resource-constrained environments, such as embedded systems or edge devices commonly found in retail settings.
-              </p>
-              <p>
-                The primary objective of this project is to design and implement a system capable of detecting and identifying various retail products on shelves or in storage with high accuracy and low latency. By leveraging the YOLOv4-Tiny architecture, the system aims to provide real-time analytics that can assist in inventory tracking, shelf management, and loss prevention. The project will involve dataset preparation, model training, and fine-tuning, as well as the integration of the detection system with retail software platforms.
-              </p>
-              <p>
-                This introduction outlines the scope and significance of the project, highlighting the need for innovative solutions in the retail sector and the potential impact of implementing an efficient object detection system. Through this endeavor, we aim to demonstrate the practical applications of deep learning in retail and explore the benefits of adopting advanced technologies for everyday business operations.
+
               </p>
               <h2>Process</h2>
               <ul style="text-align: justify;">
                 <li>
-                  <strong>Data Collection</strong>: A dataset of images of retail products was collected from various sources, including online marketplaces and in-store captures. The dataset consisted of 106 classes of powdered milk products in both box and can formats.
+                  <strong>Data Collection</strong>: The data was obtained from Keagel, which reviews the services provided by "Ojol".
                 </li>
                 <li>
-                  <strong>Data Preprocessing</strong>: The collected images were preprocessed to ensure consistency in size, format, and quality. This involved resizing images to a uniform size, converting them to a suitable format, and enhancing image quality where necessary.
+                  <strong>Data Labeling</strong>: The data was labeled with the following categories: 1 for "positive" and 0 for "Negative".
                 </li>
                 <li>
-                  <strong>Data Annotation</strong>: The dataset was annotated with bounding boxes to identify and label the objects of interest, facilitating the model's learning process.
+                  <strong>Data Preprocessing</strong>: During the preprocessing phase, several steps were taken, including casefolding to convert all text to lowercase, removing numbers, punctuation, and repeated characters, normalizing slang words, and removing common stop words from the text.
                 </li>
                 <li>
-                  <strong>Model Selection and Training</strong>: The YOLOv4-Tiny architecture was chosen for its proven ability to provide satisfactory object detection results. The model was trained on the preprocessed dataset for 46 hours out of a total of 111 hours.
+                  <strong>Training Model</strong>: The model was trained using the BLSTM (Bidirectional Long Short-Term Memory) algorithm.
                 </li>
                 <li>
-                  <strong>Model Evaluation</strong>: The trained model was evaluated on a test dataset to assess its performance. The evaluation metrics used included mean Average Precision (mAP), Precision, Recall, and F1-score.
-                </li>
-                <li>
-                  <strong>Deployment</strong>: The trained model was deployed on an Android device to test its real-time object detection capabilities. The model demonstrated an average inference time ranging from 600 to 700 ms, with some instances requiring up to 900 ms.
+                  <strong>Model Evaluation</strong>: The model was evaluated using the Accuracy metric.
                 </li>
               </ul>
 
               <h2>Result</h2>
               <p>
-                Based on the results of the research conducted, several conclusions can be drawn. This study successfully implemented the YOLOv4-tiny architecture model for object detection on retail products, specifically focusing on 106 classes of powdered milk products in both box and can formats. The YOLOv4-tiny architecture was chosen for its proven ability to provide satisfactory object detection results. The model was trained for 46 hours out of a total of 111 hours. The model demonstrated high performance, with a mAP value reaching 92.12%, a Precision score of 0.78, a Recall score of 0.82, and an F1-score of 0.80. Additionally, testing on an Android device showed an average inference time ranging from 600 to 700 ms, with some instances requiring up to 900 ms. This inference time is sufficient for real-time object detection as it is under 1 second.
+                The project successfully implemented sentiment analysis on the Kerjamin application, a platform for finding handyman services, using a Bidirectional Long Short-Term Memory (BLSTM) model. The BLSTM model was chosen for its ability to capture contextual information from user reviews and feedback. The sentiment analysis results indicated a high accuracy rate, effectively classifying user sentiments into positive and negative categories. This analysis provided valuable insights into customer satisfaction, highlighting key areas for improvement in the service offerings. The integration of sentiment analysis into Kerjamin enhanced the app's ability to understand user needs and preferences, ultimately contributing to a better user experience and more informed business decisions.
               </p>
             </div>
           </div>
@@ -164,9 +147,9 @@
               <h3>Project information</h3>
               <ul>
                 <li><strong>Category</strong>Data Science</li>
-                <li><strong>Tools</strong>Python, Jupyter Notebook, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras, YOLOv4 Tiny</li>
-                <li><strong>Project date</strong> 19 June 2023</li>
-                <li><strong>Project URL</strong> <a href="https://github.com/RaihanAjah/Development-of-an-Object-Detection-System-in-Retail-Products-with-Yolov4-Tiny-Architecture">https://github.com/RaihanAjah/Development-of-an-Object-Detection-System-in-Retail-Products-with-Yolov4-Tiny-Architecture</a></li>
+                <li><strong>Tools</strong>Python, Jupyter Notebook, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras</li>
+                <li><strong>Project date</strong> 14 July 2022</li>
+                <li><strong>Project URL</strong> <a href="https://github.com/RaihanAjah/Sentiment-Analysis-Kerjamin/tree/main?tab=readme-ov-file">https://github.com/RaihanAjah/Sentiment-Analysis-Kerjamin/tree/main?tab=readme-ov-file</a></li>
               </ul>
             </div>
           </div>
